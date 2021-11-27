@@ -23,7 +23,7 @@ body {
   .header-image { 
     text-align: center;
   }
-  
+
 }
 .main-element {
   display: block;
@@ -39,16 +39,16 @@ body {
   display: flex;
 }
 
-#incompleteTasks #completedTasks{
+#incompleteTasks, #completedTasks{
   margin:0;
   padding: 0px;
 }
 
 
-input,button{
+input, button{
   outline:none;
 }
-.edit,.btn-add {
+.edit, .btn-add {
   background: none;
   border: 0px;
   color: #888;
@@ -138,14 +138,14 @@ input,button{
 
 /* Edit Task */
 .task-input {
-  display:none
+  display: none
 }
 
 .edit-mode .task-input {
-  display:inline-block;
-  width:224px
+  display: inline-block;
+  width: 224px
 }
 
 .edit-mode label {
-  display:none;
+  display: none;
 }
