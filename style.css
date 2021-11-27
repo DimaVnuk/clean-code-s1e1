@@ -5,16 +5,21 @@ body {
   color: #333;
   font-family: Lato, sans-serif;
 }
+
 .header-image {
   width: 500px;
   margin: 0 auto;
   display: block;
   text-align: right;
 }
-.header-image img {
+
+.header-image
+.eisenhower-matrix-img {
   width: 100%;
 }
-.header-image .more_inf {
+
+.header-image
+.more_inf {
   font-family: fantasy, cursive;
 }
 
@@ -25,30 +30,36 @@ body {
   }
 
 }
+
 .main-element {
   display: block;
   width: 500px;
   margin: 0 auto 0;
 }
+
 .task {
   width: 56%;
   display: inline-block;
   flex-grow: 1;
 }
+
 .task-wrapper {
   display: flex;
 }
 
-#incompleteTasks, #completedTasks{
+#incompleteTasks,
+#completedTasks{
   margin:0;
   padding: 0px;
 }
 
-
-input, button{
+input,
+button{
   outline:none;
 }
-.edit, .btn-add {
+
+.edit,
+.btn-add {
   background: none;
   border: 0px;
   color: #888;
@@ -57,11 +68,13 @@ input, button{
   font-family: Lato, sans-serif;
   cursor: pointer;
 }
+
 .edit:hover {
   color: #3a3A3a;
 }
 /* Heading */
-.title .label-new-task {
+.title
+.label-new-task {
   color: #333;
   font-weight: 700;
   font-size: 15px;
@@ -70,6 +83,7 @@ input, button{
   margin: 0;
   text-transform: uppercase;
 }
+
 .task-input {
   margin: 0;
   font-size: 18px;
@@ -82,6 +96,7 @@ input, button{
   font-family: Lato, sans-serif;
   color: #888;
 }
+
 .task-input:focus {
   color: #333;
 }
@@ -91,6 +106,7 @@ input, button{
   display: block;
   margin: 0 0 20px;
 }
+
 #newTask {
   width: 318px;
 }
@@ -105,6 +121,7 @@ input, button{
   justify-content: space-between;
   align-items: center;
 }
+
 .list{
   vertical-align: middle;
 }
@@ -112,7 +129,9 @@ input, button{
 .check-input {
   margin: 0 10px;
 }
-.label-new-task, .task {
+
+.label-new-task,
+.task {
   padding-left: 10px;
   box-sizing: border-box;
   font-size: 18px;
@@ -121,12 +140,15 @@ input, button{
 .task-input {
   width: 226px;
 }
-.delete-elem .delete-img {
+.delete-elem
+.delete-img {
   height: 2em;
   transform: rotateZ(45deg);
   transition: transform 200ms ease-in;
 }
-.delete-elem .delete-img:hover {
+
+.delete-elem
+.delete-img:hover {
   transform: rotateZ(0);
 }
 
@@ -141,11 +163,13 @@ input, button{
   display: none;
 }
 
-.edit-mode .task-input {
+.edit-mode
+.task-input {
   display: inline-block;
   width: 224px;
 }
 
-.edit-mode label {
+.edit-mode
+.task {
   display: none;
 }
