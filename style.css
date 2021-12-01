@@ -23,8 +23,8 @@
   width: 100%;
 }
 
-.header-image
-.more_inf {
+.header-image,
+.more_info {
   font-family: fantasy, cursive;
 }
 
@@ -153,7 +153,7 @@ button{
 .list
 >
 .task-input {
-  width: 226px;
+  width: 306px;
 }
 
 .delete-elem
@@ -185,7 +185,7 @@ button{
 .edit-mode
 .task-input {
   display: inline-block;
-  width: 224px;
+  width: 390px;
 }
 
 .list-cont
